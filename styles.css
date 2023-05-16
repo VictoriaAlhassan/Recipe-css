@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(243, 237, 149);
+  font-family: sans-serif;
+}
+section {
+  background-color: white;
+  margin: 2% 3%;
+  /* height: 40%; */
+}
+.first {
+  justify-content: center;
+  width: 50%;
+  margin-left: 38%;
+  margin-right: 38%;
+  padding-top: 1%;
+  /* margin-top: 5%; */
+  /* align-items: center; */
+}
+.headers {
+}
+p {
+  font-size: 14px;
+  font-weight: 0px;
+}
+/* .paragraph { */
+/* align-items: end; */
+/* } */
+input {
+  border-radius: 15px;
+  padding: 5px 80px;
+  /* border-style: none; */
+  border-color: red;
+  margin-bottom: 10%;
+}
+.unique {
+  margin-top: 0px;
+  margin-left: 42%;
+}
+.container {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  margin: 0 10px;
+}
+.container-items {
+  border-radius: 10px;
+  background-color: antiquewhite;
+  /* border: 2px solid red; */
+  margin: 20px;
+}
+img {
+  transition: transform 0.2s;
+  width: 100%;
+  height: 70%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+img:hover {
+  transform: scale(1.2);
+}
+.Recipe {
+  font-size: 15px;
+
+  margin-left: 10%;
+}
+.banana {
+  margin-left: 23%;
+}
+.collaloo {
+  margin-left: 11%;
+}
+.mousse {
+  margin-left: 5%;
+}
+.btn {
+  margin-left: 30%;
+  padding: 3% 5%;
+  border-radius: 10px;
+  border-style: none;
+  background-color: red;
+  color: white;
+}
+
+@media screen and (max-width: 835px) {
+  .first {
+    margin-left: 28%;
+    margin-right: 28%;
+  }
+  .btn {
+    margin-left: 25%;
+    padding: 2px 3%;
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  .unique {
+    margin-left: 37%;
+  }
+  .banana {
+    margin-left: 30%;
+  }
+  .collaloo {
+    margin-left: 27%;
+  }
+  .mousse {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width: 725px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    border-radius: 15px;
+    padding: 5px 30px;
+  }
+  .unique {
+    margin-left: 25%;
+  }
+  .btn {
+    margin-left: 35%;
+  }
+}
+@media screen and (max-width: 385px) {
+  input {
+    border-radius: 15px;
+    padding: 1px 1px;
+  }
+  .banana {
+    margin-left: 23%;
+  }
+  .collaloo {
+    margin-left: 15%;
+  }
+  .mousse {
+    margin-left: 12%;
+  }
+}
